@@ -6,7 +6,7 @@
 - дизайн кнопок оформили в отдельный стиль и подключили его
 - реализовали переход между Activity с передачей параметров
 
-### Полезная литература:
+### Полезные ссылки:
  * [Platform Architecture](https://developer.android.com/guide/platform/index.html)
  * [Android Manifest](http://developer.alexanderklimov.ru/android/theory/AndroidManifestXML.php)
  * [Ресурсы приложения](https://developer.android.com/guide/topics/resources/accessing-resources.html?hl=ru)
