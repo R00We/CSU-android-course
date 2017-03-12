@@ -1,6 +1,6 @@
-# CSU-android-course
+# Курс по Android ([YouTube](https://www.youtube.com/playlist?list=PLPkT3QbnwgTFUpuRLNPlYyzPyrYhFVwRR))
 Примеры по курсу лекций основы мобильной разработки под Android
-### Занятие 1:
+### Занятие 1([YouTube](https://youtu.be/PZPwygd6ALM)):
 - быстро прошлись по архитектуре os
 - сверстали простой экран используя FrameLayout и LinearLayout
 - дизайн кнопок оформили в отдельный стиль и подключили его
