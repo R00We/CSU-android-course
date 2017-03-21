@@ -23,6 +23,7 @@
 ### Полезные ссылки:
  * [Layouts](https://developer.android.com/guide/topics/ui/declaring-layout.html)
  * [ListView](http://developer.alexanderklimov.ru/android/views/listview.php)
+ * [LayoutInflater, UI контролы, AdapterView](https://youtu.be/K9UIT55WP1g?list=PLufI-p7bsMuRbTCnsoLrN6rWDl8MQ_TMM)
  * [Еще про ListView](https://habrahabr.ru/post/133575/)
  * [GridView](http://developer.alexanderklimov.ru/android/views/gridview.php)
  * [RecyclerView](http://www.fandroid.info/primer-ispolzovaniya-cardview-i-recyclerview-v-android/)
