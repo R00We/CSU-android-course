@@ -15,3 +15,15 @@
  * [Activity](http://developer.alexanderklimov.ru/android/theory/activity-theory.php)
   
 ---
+### Занятие 2:
+- узнали что такое ListView и GridView
+- создали свой CustomArrayAdapter на основе ArrayAdapter
+- используя модификаторы создали 2 разметки для 1 Activity
+
+### Полезные ссылки:
+ * [Layouts](https://developer.android.com/guide/topics/ui/declaring-layout.html)
+ * [ListView](http://developer.alexanderklimov.ru/android/views/listview.php)
+ * [Еще про ListView](https://habrahabr.ru/post/133575/)
+ * [GridView](http://developer.alexanderklimov.ru/android/views/gridview.php)
+ * [RecyclerView](http://www.fandroid.info/primer-ispolzovaniya-cardview-i-recyclerview-v-android/)
+ * [Ресурсы приложения, модификаторы](https://www.youtube.com/watch?v=071pX_Cedc8)
