@@ -15,7 +15,7 @@
  * [Activity](http://developer.alexanderklimov.ru/android/theory/activity-theory.php)
   
 ---
-### Занятие 2:
+### Занятие 2([YouTube](https://youtu.be/tdYlvGiOuy0)):
 - узнали что такое ListView и GridView
 - создали свой CustomArrayAdapter на основе ArrayAdapter
 - используя модификаторы создали 2 разметки для 1 Activity
