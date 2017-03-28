@@ -40,6 +40,6 @@
  * [Fragment](https://developer.android.com/guide/components/fragments.html?hl=ru)
  * [еще про Fragment](http://developer.alexanderklimov.ru/android/theory/fragments.php)
  * [WebView](https://developer.android.com/reference/android/webkit/WebView.html)
- * [SharedPreference](https://habrahabr.ru/post/133575/)
+ * [SharedPreference](http://developer.alexanderklimov.ru/android/theory/sharedpreferences.php)
  * [про Manifest и uses-permission](http://developer.alexanderklimov.ru/android/theory/AndroidManifestXML.php)
  
