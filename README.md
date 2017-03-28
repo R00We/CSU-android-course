@@ -30,7 +30,7 @@
  * [Ресурсы приложения, модификаторы](https://www.youtube.com/watch?v=071pX_Cedc8)
 
 ---
-### Занятие 3:
+### Занятие 3([YouTube](https://youtu.be/PN2Vpn9iQaY)):
 - познакомились с Fragment
 - познакомились с жизненным циклом Activity и Fragment
 - узнали как передавать данные из Fragment в Fragment
