@@ -9,6 +9,7 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -52,20 +53,34 @@ public class LinkFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 String url = urlEditText.getText().toString();
-                onUrlSelectedInterface.onUrlSelected(url);
-                urlHistoryAdapter.add(url);
-                Set<String> set = sharedPreferences.getStringSet(URL_KEY, new HashSet<String>());
-                set.add(url);
-                sharedPreferences.edit().putStringSet(URL_KEY, set).apply();
-
+                openUrl(url);
+                saveUrl(url);
             }
         });
         urlHistorylistView = (ListView) rootView.findViewById(R.id.urlHistoryListView);
+        urlHistorylistView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                openUrl(urlHistoryAdapter.getItem(position));
+            }
+        });
+
         Set<String> set = sharedPreferences.getStringSet(URL_KEY, new HashSet<String>());
         urlHistoryAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, new ArrayList<>(set));
         urlHistorylistView.setAdapter(urlHistoryAdapter);
 
         return rootView;
+    }
+
+    private void openUrl(String url) {
+        onUrlSelectedInterface.onUrlSelected(url);
+    }
+
+    private void saveUrl(String url) {
+        urlHistoryAdapter.add(url);
+        Set<String> set = sharedPreferences.getStringSet(URL_KEY, new HashSet<String>());
+        set.add(url);
+        sharedPreferences.edit().putStringSet(URL_KEY, set).apply();
     }
 
     public interface OnUrlSelectedInterface {

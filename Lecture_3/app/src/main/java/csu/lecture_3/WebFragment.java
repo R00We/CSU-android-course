@@ -30,12 +30,7 @@ public class WebFragment extends Fragment {
                 return false;
             }
         });
-        Bundle arguments = getArguments();
-        if (arguments != null) {
-            webView.loadUrl(arguments.getString(URL, DEFAULT_URL));
-        } else {
-            webView.loadUrl(DEFAULT_URL);
-        }
+
         return rootView;
     }
 
