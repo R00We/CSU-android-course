@@ -28,3 +28,18 @@
  * [GridView](http://developer.alexanderklimov.ru/android/views/gridview.php)
  * [RecyclerView](http://www.fandroid.info/primer-ispolzovaniya-cardview-i-recyclerview-v-android/)
  * [Ресурсы приложения, модификаторы](https://www.youtube.com/watch?v=071pX_Cedc8)
+
+---
+### Занятие 3:
+- познакомились с Fragment
+- познакомились с жизненным циклом Activity и Fragment
+- узнали как передавать данные из Fragment в Fragment
+- написали простой мобильный браузер с историей на основе WebView и SharedPreference
+
+### Полезные ссылки:
+ * [Fragment](https://developer.android.com/guide/components/fragments.html?hl=ru)
+ * [еще про Fragment](http://developer.alexanderklimov.ru/android/theory/fragments.php)
+ * [WebView](https://developer.android.com/reference/android/webkit/WebView.html)
+ * [SharedPreference](https://habrahabr.ru/post/133575/)
+ * [про Manifest и uses-permission](http://developer.alexanderklimov.ru/android/theory/AndroidManifestXML.php)
+ 
