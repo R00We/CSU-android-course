@@ -43,3 +43,13 @@
  * [SharedPreference](http://developer.alexanderklimov.ru/android/theory/sharedpreferences.php)
  * [про Manifest и uses-permission](http://developer.alexanderklimov.ru/android/theory/AndroidManifestXML.php)
  
+ ---
+### Занятие 4:
+- познакомились с Service и его жизненным циклом
+- познакомились с MediaPlayer
+
+### Полезные ссылки:
+ * [Service](http://developer.alexanderklimov.ru/android/theory/services-theory.php)
+ * [видео про Service](https://www.youtube.com/watch?v=TXgNixLi8P4&list=PLufI-p7bsMuRbTCnsoLrN6rWDl8MQ_TMM&index=8)
+ * [MediaPlayer](https://developer.android.com/guide/topics/media/mediaplayer.html)
+ 
