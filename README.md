@@ -53,3 +53,12 @@
  * [видео про Service](https://www.youtube.com/watch?v=TXgNixLi8P4&list=PLufI-p7bsMuRbTCnsoLrN6rWDl8MQ_TMM&index=8)
  * [MediaPlayer](https://developer.android.com/guide/topics/media/mediaplayer.html)
  
+  ---
+### Занятие 5:
+- разобрались с многопоточностью
+- познакомились с AsyncTask, RX, IntentService
+
+### Полезные ссылки:
+ * [AsyncTask](https://developer.android.com/reference/android/os/AsyncTask.html)
+ * [цикл статей по RX](https://habrahabr.ru/post/265269/)
+ * [IntentService](http://developer.alexanderklimov.ru/android/theory/intentservice.php)
